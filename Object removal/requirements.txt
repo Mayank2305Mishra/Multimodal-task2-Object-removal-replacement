@@ -1,0 +1,20 @@
+# Recommended Python: 3.11
+numpy==1.26.4
+pillow==10.4.0
+opencv-python-headless==4.10.0.84
+streamlit==1.39.0
+
+# PyTorch / TorchVision — install a matching pair appropriate for your platform first.
+# Example for Linux CPU:
+# pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cpu
+# Then install the remaining requirements below.
+
+torch==2.5.1
+torchvision==0.20.1
+
+timm>=1.0.9,<1.1
+open_clip_torch>=2.24.0,<2.27
+simple-lama-inpainting==0.1.0
+
+git+https://github.com/ChaoningZhang/MobileSAM.git
+git+https://github.com/apple-aiml-research/ml-mobileclip.git

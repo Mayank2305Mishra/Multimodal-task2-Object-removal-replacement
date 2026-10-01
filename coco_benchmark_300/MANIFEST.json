@@ -1,0 +1,30 @@
+{
+  "dataset": "COCO 2017 val2017",
+  "num_images": 300,
+  "random_seed": 42,
+  "images_per_category": 20,
+  "categories": [
+    "person",
+    "car",
+    "bicycle",
+    "motorcycle",
+    "bus",
+    "truck",
+    "dog",
+    "cat",
+    "horse",
+    "bird",
+    "bottle",
+    "chair",
+    "couch",
+    "laptop",
+    "cell phone"
+  ],
+  "target_selection": "largest non-crowd instance",
+  "purpose": [
+    "segmentation quality",
+    "CPU inference speed",
+    "memory usage",
+    "downstream object removal"
+  ]
+}

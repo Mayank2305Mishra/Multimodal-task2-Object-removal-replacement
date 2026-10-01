@@ -1,0 +1,33 @@
+{
+  "dataset_root": "/kaggle/input/datasets/mayankmishra2006/coco-sampled",
+  "n_images": 300,
+  "seed": 42,
+  "cpu_only": true,
+  "torch_threads": 3,
+  "models": {
+    "YOLOv8n-seg": {
+      "type": "yolo",
+      "weights": "yolov8n-seg.pt"
+    },
+    "YOLO11n-seg": {
+      "type": "yolo",
+      "weights": "yolo11n-seg.pt"
+    },
+    "YOLO26n-seg": {
+      "type": "yolo",
+      "weights": "yolo26n-seg.pt"
+    },
+    "FastSAM-s": {
+      "type": "fastsam",
+      "weights": "FastSAM-s.pt"
+    },
+    "MobileSAM": {
+      "type": "sam",
+      "weights": "mobile_sam.pt"
+    },
+    "SAM2.1-Tiny": {
+      "type": "sam",
+      "weights": "sam2.1_t.pt"
+    }
+  }
+}

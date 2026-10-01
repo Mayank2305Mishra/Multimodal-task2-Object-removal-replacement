@@ -1,0 +1,19 @@
+{
+  "segmentation_model": "MobileSAM vit_t",
+  "grounding_model": "Grounding DINO-Tiny",
+  "device": "cpu",
+  "dataset": "COCO",
+  "num_images": 10,
+  "mean_mask_iou": 0.6238631185103597,
+  "mean_dice": 0.6919688887627256,
+  "mask_recall_iou_50": 0.7,
+  "mask_recall_iou_75": 0.6,
+  "mean_grounding_latency_ms": 18498.53709199999,
+  "mean_mobile_sam_latency_ms": 1982.1380415000247,
+  "mean_total_latency_ms": 20481.04805419998,
+  "median_total_latency_ms": 19351.897790499832,
+  "mobile_sam_parameters_million": 10.130092,
+  "mobile_sam_checkpoint_mb": 38.84146308898926,
+  "grounding_dino_parameters_million": 172.250626,
+  "grounding_dino_directory_mb": 657.8904819488525
+}

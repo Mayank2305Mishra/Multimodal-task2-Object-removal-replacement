@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Model weights >100MB (GitHub file size limit) — download separately
+Object removal/model_wts/big-lama.pt
+Object removal/model_wts/lama_fp32.onnx
+Object removal/model_wts/mobileclip_s0.pt
+Model2_GroundingDINO_EfficientViTSAM_MIGAN/model_wts/grounding_dino/model.safetensors
+Model2_GroundingDINO_EfficientViTSAM_MIGAN/model_wts/efficientvit_sam_l0.pt

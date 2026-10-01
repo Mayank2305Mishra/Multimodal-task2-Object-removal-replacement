@@ -1,0 +1,14 @@
+{
+  "source": "lmms-lab-encoder/RefCOCO",
+  "split": "val",
+  "samples": 200,
+  "seed": 42,
+  "sampling": "one referring expression per image",
+  "models": [
+    "MobileCLIP-S0",
+    "MobileCLIP-S2",
+    "MobileCLIP2-S0",
+    "MobileCLIP2-S2",
+    "SigLIP-B/16"
+  ]
+}
