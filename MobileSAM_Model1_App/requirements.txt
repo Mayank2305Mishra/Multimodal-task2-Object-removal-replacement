@@ -1,0 +1,10 @@
+streamlit>=1.40
+numpy>=1.26
+pandas>=2.1
+opencv-python>=4.8
+Pillow>=10.0
+onnxruntime>=1.16
+torch
+torchvision
+git+https://github.com/ChaoningZhang/MobileSAM.git
+git+https://github.com/apple-aiml-research/ml-mobileclip.git
