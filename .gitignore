@@ -2,6 +2,10 @@
 __pycache__/
 *.pyc
 
+# Local Python environments and downloaded model artifacts
+**/.venv/
+**/model_wts/
+
 # Model weights >100MB (GitHub file size limit) — download separately
 Object removal/model_wts/big-lama.pt
 Object removal/model_wts/lama_fp32.onnx
